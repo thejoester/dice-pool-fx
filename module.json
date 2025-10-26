@@ -1,0 +1,24 @@
+{
+  "id": "dice-pool-fx",
+  "title": "Dice Pool FX",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "description": "<p>Plays a sound when a chat roll contains 2+ dice and every die is either max value or minimum (all 1s).</p>",
+  "authors": [
+    {
+      "name": "thejoester",
+      "url": "https://github.com/thejoester",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "esmodules": ["dicePoolFX.js"],
+  "manifest": "",
+	"download": "",
+	"readme": ""
+}
