@@ -51,8 +51,7 @@ jobs:
           mkdir -p dist
           if [ -f LICENSE.md ]; then LIC="LICENSE.md"; else LIC="LICENSE"; fi
           zip -r dist/dice-pool-fx.zip \
-            module.json README.md "$LIC" CHANGELOG.md \
-            scripts/ \
+            module.json dicePoolFX.js README.md "$LIC" CHANGELOG.md \
             -x "packs/*/_source/*"
 
       - uses: release-flow/keep-a-changelog-action@v3
